@@ -13,6 +13,7 @@ import ChooseUs from "@/components/homepage/chooseus";
 import Services from "@/components/homepage/services";
 import Stats from "@/components/homepage/stats";
 import Hero from "@/components/homepage/hero";
+import ScrollingText from "@/components/homepage/scrollingtext";
 
 export default function Home() {
   const fadeIn = {
@@ -25,6 +26,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Hero />
       <Stats />
+      <ScrollingText />
       <Services />
       <ChooseUs />
       <Testimonials />
